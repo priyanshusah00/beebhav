@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choose a Place</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Where should we hang out? 🌍</h1>
+    <div class="options">
+      <div class="option" onclick="selectPlace('Park')">
+        <img src="Park.avif" alt="Park">
+        <p>Park</p>
+      </div>
+      <div class="option" onclick="selectPlace('Cafe')">
+        <img src="cafe.avif" alt="Cafe">
+        <p>Cafe</p>
+      </div>
+      <div class="option" onclick="selectPlace('Beach')">
+        <img src="beach.webp" alt="Beach">
+        <p>Beach</p>
+      </div>
+    </div>
+    <button id="nextButton" disabled onclick="redirectToFood()">Next</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
