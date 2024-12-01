@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choose Food</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>What should we eat? 🍕</h1>
+    <div class="options">
+      <div class="option" onclick="selectFood('Pizza')">
+        <img src="pizza.webp" alt="Pizza">
+        <p>Pizza</p>
+      </div>
+      <div class="option" onclick="selectFood('Sushi')">
+        <img src="sushi.webp" alt="Sushi">
+        <p>Sushi</p>
+      </div>
+      <div class="option" onclick="selectFood('Burgers')">
+        <img src="burger.webp" alt="Burgers">
+        <p>Burgers</p>
+      </div>
+    </div>
+    <button id="nextButton" disabled onclick="redirectToThankYou()">Next</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
